@@ -4,7 +4,7 @@ geocodeAll(cities).then(geocodes => {
     geocodes.forEach(geocode => {
         console.log(geocode.results[0].geometry.location.lat);
         console.log(geocode.results[0].geometry.location.lng);
-    }) 
+    });
 });
 
 function geocodeAll(cities) {
